@@ -1,0 +1,45 @@
+div.fixed{
+display:none;
+}
+
+
+
+body{
+	font-family: 'consolas';
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #000;
+	overflow:auto;
+}
+
+h2{
+	font-size: 8em;
+	text-align: center;
+}
+
+h3{
+	font-size: 4em;
+	text-align:center;
+
+}
+
+h4{
+	font-size: 4em;
+	text-align:center;
+}
+
+
+p{
+	font-size: 4em;
+	text-align: center;
+	padding: 20px;
+}
+.cursor{
+	height: 200px;
+	width: 200px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: fixed;
+	z-index: -1;
+}
